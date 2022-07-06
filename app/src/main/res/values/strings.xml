@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">Logical_Game</string>
+
+
+    <!--    question-->
+    <string name="questions_1">Quyidagilarni qaysi biri viewGroup hisoblanadi?</string>
+    <string name="variant_1_a">LinearLayout</string>
+    <string name="variant_1_b">ImageView</string>
+    <string name="variant_1_c">TextView</string>
+    <string name="variant_1_d">Space</string>
+    <string name="answer_1">LinearLayout</string>
+
+    <string name="questions_2">… kalit so\'zi classlar oldidan qo\'llansa shu classdan voris olib cheklanadi.</string>
+    <string name="variant_2_a">static</string>
+    <string name="variant_2_b">private</string>
+    <string name="variant_2_c">final</string>
+    <string name="variant_2_d">abstract</string>
+    <string name="answer_2">final</string>
+
+    <string name="questions_3">Quyidagilardan qaysi biri access modificator hisoblanmaydi</string>
+    <string name="variant_3_a">private</string>
+    <string name="variant_3_b">public</string>
+    <string name="variant_3_c">protected</string>
+    <string name="variant_3_d">abstract</string>
+    <string name="answer_3">abstract</string>
+
+    <string name="questions_4">Quyidagilardan qaysi biri primitive toifa emas?</string>
+    <string name="variant_4_a">String</string>
+    <string name="variant_4_b">int</string>
+    <string name="variant_4_c">float</string>
+    <string name="variant_4_d">double</string>
+    <string name="answer_4">String</string>
+
+    <string name="questions_5">10 * 10 natija nima chiqadi?</string>
+    <string name="variant_5_a">1_000</string>
+    <string name="variant_5_b">100</string>
+    <string name="variant_5_c">10000</string>
+    <string name="variant_5_d">10</string>
+    <string name="answer_5">100</string>
+
+    <string name="questions_6">Quyidagilardan qaysi biri references toifa emas?</string>
+    <string name="variant_6_a">int</string>
+    <string name="variant_6_b">String</string>
+    <string name="variant_6_c">ArrayList</string>
+    <string name="variant_6_d">Integer</string>
+    <string name="answer_6">int</string>
+
+    <string name="questions_7">Java char qancha joy egallaydi?</string>
+    <string name="variant_7_a">2 bayt</string>
+    <string name="variant_7_b">1 bayt</string>
+    <string name="variant_7_c">4 bayt</string>
+    <string name="variant_7_d">8 bayt</string>
+    <string name="answer_7">2 bayt</string>
+    <string name="next">Next</string>
+    <!--    question-->
+
+
+    <!--    more-->
+    <string name="created">GITA|Created by Alimardon</string>
+    <string name="you_win">You win</string>
+    <string name="again">Again</string>
+    <string name="home">Home</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="exit_text">Do you want to complete the test?</string>
+    <string name="logic">Mantiqiy</string>
+    <string name="math">Matemetik</string>
+    <string name="information">I Texnalogiya</string>
+    <string name="start_quiz">Testni Boshlash</string>
+    <string name="history">Tarix</string>
+    <string name="sport">Sport</string>
+    <string name="movie">Kino</string>
+    <string name="genius">Gines</string>
+    <string name="aralash">Aralash</string>
+    <string name="keyingi">Keyingi </string>
+    <string name="about_1">ILova haqida…\n\n Ushbu ilova turli sohalarni o\'z ichiga olgan qiziqarli savollardan tashkil topgan.\n Ilovoda siz sohalarni tanlash orqali sohalarga doir savollarga javob berib, o\'zizga yangi bo\'lgan bilimlarni olishingiz mumkin bo\'ladi. ilovada qandaydir kamchilik va xatolar bo\'lsa ming bor uzur, Savol takliflarni kutub qolamiz.\n</string>
+    <string name="about_2">Dasturchi haqida..\n Toshmatov Alimardon GITA Dasturchilar Academiyasi Android Bootcamp2 o\'quv kursi talabasi.\n</string>
+    <string name="link2"> <a textColor="#fff" href="https://mail.google.com/mail/u/0/?tab=rm#inbox">alimardontoshmatov51@gmail.com</a></string>
+    <string name="savol_javob">Savol Javob</string>
+
+    <!--    more-->
+</resources>

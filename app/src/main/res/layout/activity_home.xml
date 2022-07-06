@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/btn_radio_color"
+    android:orientation="vertical"
+    android:weightSum="2"
+    tools:context=".Home">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?android:actionBarSize"
+        android:layout_gravity="center"
+        android:background="@color/main"
+        android:gravity="center">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginStart="10dp"
+                android:layout_weight="1" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="8"
+                android:fontFamily="@font/aclonica"
+                android:gravity="center"
+                android:letterSpacing="0.02"
+                android:text="@string/savol_javob"
+                android:textColor="#fff"
+                android:textSize="22sp"
+                tools:ignore="TextContrastCheck" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/infoApp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:background="?android:selectableItemBackgroundBorderless"
+                android:clickable="true"
+                android:focusable="true"
+                android:src="@drawable/info" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+            <!--            image-->
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/iv_quizIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="160dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="120dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="131dp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/quiz" />
+            <!--            image-->
+
+            <!--            2-->
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:id="@+id/layout1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/iv_quizIcon"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:elevation="10dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:id="@+id/brain"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/type_style"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:foreground="?android:selectableItemBackgroundBorderless"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="20dp">
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginStart="4dp"
+                        android:src="@drawable/brain" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/aclonica"
+                        android:gravity="center"
+                        android:text="@string/logic"
+                        android:textColor="#CC000000"
+                        android:textSize="16sp" />
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:id="@+id/math"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/type_style"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:foreground="?android:selectableItemBackgroundBorderless"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="20dp">
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/calculator" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/aclonica"
+                        android:gravity="center"
+                        android:text="@string/math"
+                        android:textColor="#CC000000"
+                        android:textSize="16sp" />
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+            <!--            2-->
+
+
+            <!--            1-->
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:id="@+id/layout2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/layout1"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="14dp"
+                android:layout_marginEnd="20dp"
+                android:clickable="true"
+                android:elevation="10dp"
+                android:focusable="true"
+                android:foreground="?android:selectableItemBackgroundBorderless"
+                android:orientation="horizontal">
+
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:id="@+id/information"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/type_style"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:foreground="?android:selectableItemBackgroundBorderless"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="20dp">
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/infor" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/aclonica"
+                        android:gravity="center"
+                        android:text="@string/information"
+                        android:textColor="#CC000000"
+                        android:textSize="16sp" />
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+            <!--            1-->
+
+            <!--            2-->
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:id="@+id/layout3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/layout2"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="14dp"
+                android:layout_marginEnd="20dp"
+                android:elevation="10dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:id="@+id/history"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/type_style"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:foreground="?android:selectableItemBackgroundBorderless"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="20dp">
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/history" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/aclonica"
+                        android:gravity="center"
+                        android:text="@string/history"
+                        android:textColor="#CC000000"
+                        android:textSize="16sp" />
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:id="@+id/sport"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/type_style"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:foreground="?android:selectableItemBackgroundBorderless"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="20dp">
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/sports" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/aclonica"
+                        android:gravity="center"
+                        android:text="@string/sport"
+                        android:textColor="#CC000000"
+                        android:textSize="16sp" />
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+            <!--            2-->
+
+
+            <!--            2-->
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:id="@+id/layout4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/layout3"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="14dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="14dp"
+                android:elevation="10dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:id="@+id/movie"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/type_style"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:foreground="?android:selectableItemBackgroundBorderless"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="20dp">
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/video" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/aclonica"
+                        android:gravity="center"
+                        android:text="@string/movie"
+                        android:textColor="#CC000000"
+                        android:textSize="16sp" />
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:id="@+id/mixed"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/type_style"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:foreground="?android:selectableItemBackgroundBorderless"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="20dp">
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/marketing" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/aclonica"
+                        android:gravity="center"
+                        android:text="@string/aralash"
+                        android:textColor="#CC000000"
+                        android:textSize="16sp" />
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+            <!--            2-->
+
+            <!--<androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/startQuiz"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@id/layout5"
+                android:layout_marginStart="100dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="100dp"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/btn"
+                android:fontFamily="@font/averia_sans_libre_light"
+                android:gravity="center"
+                android:text="@string/start_quiz"
+                android:textColor="#787575"
+                android:textSize="16sp"
+                android:verticalScrollbarPosition="left" />-->
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_weight="0.2"
+        android:background="#6BFFFFFF">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/startQuiz"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="60dp"
+            android:background="@drawable/btn"
+            android:elevation="10dp"
+            android:fontFamily="@font/aclonica"
+            android:gravity="center"
+            android:text="@string/start_quiz"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:verticalScrollbarPosition="left" />
+    </FrameLayout>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

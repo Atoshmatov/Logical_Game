@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/BootCamp_Android/Play market/Lesson_App_3/app/src/main/res/drawable/btn.xml" value="0.231" />
+        <entry key="..\:/BootCamp_Android/Play market/Lesson_App_3/app/src/main/res/drawable/btn_style.xml" value="0.205" />
+        <entry key="..\:/BootCamp_Android/Play market/Lesson_App_3/app/src/main/res/drawable/cl_style.xml" value="0.231" />
+        <entry key="..\:/BootCamp_Android/Play market/Lesson_App_3/app/src/main/res/drawable/ic_arrow_left.xml" value="0.139" />
+        <entry key="..\:/BootCamp_Android/Play market/Lesson_App_3/app/src/main/res/drawable/ic_baseline_timer_24.xml" value="0.1975" />
+        <entry key="..\:/BootCamp_Android/Play market/Lesson_App_3/app/src/main/res/drawable/ic_list.xml" value="0.1975" />
+        <entry key="..\:/BootCamp_Android/Play market/Lesson_App_3/app/src/main/res/drawable/ic_setting.xml" value="0.139" />
+        <entry key="..\:/BootCamp_Android/Play market/Lesson_App_3/app/src/main/res/drawable/ic_time.xml" value="0.231" />
+        <entry key="..\:/BootCamp_Android/Play market/Lesson_App_3/app/src/main/res/drawable/info.xml" value="0.1935" />
+        <entry key="..\:/BootCamp_Android/Play market/Lesson_App_3/app/src/main/res/drawable/selected.xml" value="0.1975" />
+        <entry key="..\:/BootCamp_Android/Play market/Lesson_App_3/app/src/main/res/drawable/style_tool.xml" value="0.205" />
+        <entry key="..\:/BootCamp_Android/Play market/Lesson_App_3/app/src/main/res/drawable/tv_count.xml" value="0.205" />
+        <entry key="..\:/BootCamp_Android/Play market/Lesson_App_3/app/src/main/res/drawable/type_style.xml" value="0.231" />
+        <entry key="..\:/BootCamp_Android/Play market/Lesson_App_3/app/src/main/res/drawable/variant_style.xml" value="0.231" />
+        <entry key="..\:/BootCamp_Android/Play market/Lesson_App_3/app/src/main/res/drawable/variant_style2.xml" value="0.231" />
+        <entry key="..\:/BootCamp_Android/Play market/Lesson_App_3/app/src/main/res/drawable/wrong.xml" value="0.1975" />
+        <entry key="..\:/BootCamp_Android/Play market/Lesson_App_3/app/src/main/res/layout/activity_home.xml" value="0.2" />
+        <entry key="..\:/BootCamp_Android/Play market/Lesson_App_3/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/BootCamp_Android/Play market/Lesson_App_3/app/src/main/res/layout/activity_splash.xml" value="0.25" />
+        <entry key="..\:/BootCamp_Android/Play market/Lesson_App_3/app/src/main/res/layout/eixtdialog.xml" value="0.22447916666666667" />
+        <entry key="..\:/BootCamp_Android/Play market/Lesson_App_3/app/src/main/res/layout/infodialod.xml" value="0.25" />
+        <entry key="..\:/BootCamp_Android/Play market/Lesson_App_3/app/src/main/res/layout/listdialog.xml" value="0.22447916666666667" />
+        <entry key="..\:/BootCamp_Android/Play market/Lesson_App_3/app/src/main/res/layout/windialog.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.1" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

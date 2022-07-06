@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="variant_st">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">20dp</item>
+        <item name="android:layout_marginTop">18dp</item>
+        <item name="android:layout_marginEnd">20dp</item>
+        <item name="android:padding">6dp</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:background">@drawable/variant_style2</item>
+        <item name="android:fontFamily">@font/averia_sans_libre_light</item>
+        <item name="android:minHeight">50dp</item>
+        <item name="android:textColor">#62666A</item>
+    </style>
+</resources>
